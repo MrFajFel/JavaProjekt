@@ -4,7 +4,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         List<Lot> loty = new ArrayList<>();
 
         Lot PierwszyLot = new Lot("Warszawa","Londyn","2000/03/03",60,30);

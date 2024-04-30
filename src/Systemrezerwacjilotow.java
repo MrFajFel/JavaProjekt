@@ -26,10 +26,8 @@ public class Systemrezerwacjilotow implements Systemrezerwujacyloty  {
         }
     }
 
-    public void wyszukiwanieLotow(Lot lot) {
-        if (lot.getLiczbaMiejsc() != 0){
-            System.out.println();
-        }
+    public void wyszukiwanieLotow() {
+        //TODO nie wiem jak narazie ale pewnie wymysle zaraz
     }
 
     @Override
