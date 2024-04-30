@@ -1,10 +1,10 @@
-public class Lot {
+public class Lot extends Systemrezerwacjilotow{
 //miejsce docelowe, miejsce wylotu, data wylotu, czas trwania lotu, liczba dostępnych miejsc
-    private String miejsceDocelowe;
-    private String miejsceWylotu;
-    private String dataWylotu;
-    private double czasTrwaniaLotu;
-    private int liczbaMiejsc;
+    protected String miejsceDocelowe;
+    protected String miejsceWylotu;
+    protected String dataWylotu;
+    protected double czasTrwaniaLotu;
+    protected int liczbaMiejsc;
 
 
 
