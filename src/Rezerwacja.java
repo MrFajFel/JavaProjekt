@@ -1,10 +1,9 @@
 public class Rezerwacja extends Systemrezerwacjilotow{
-//    •	Zawiera pole wskazujące na konkretny lot oraz dane posiadacza i cenę biletu
     private String imie;
     private String nazwisko;
     private String pesel;
     private String numerTelefonu;
-    private float cenaBiletu;
+    private final float cenaBiletu;
 
 
     public String getImie() {
