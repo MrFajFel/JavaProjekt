@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Systemrezerwacjilotow implements Systemrezerwujacyloty  {
-    List<Lot> loty = new ArrayList<>();
     List<Systemrezerwacjilotow> rezerwacje = new ArrayList<>();
     public void rezerwacja(Lot lot) {
         if (lot.getLiczbaMiejsc() != 0){
@@ -26,18 +25,18 @@ public class Systemrezerwacjilotow implements Systemrezerwujacyloty  {
         }
     }
 
-    public void wyszukiwanieLotow() {
-        //TODO nie wiem jak narazie ale pewnie wymysle zaraz
+    public void wyszukiwanieLotow(List<Lot> loty) {
+        System.out.println("Dostępne loty:");
+       for (Lot lot:loty){
+           if (lot.getLiczbaMiejsc()>0){
+               System.out.println(lot);
+           }
+       }
     }
 
     @Override
     public void wyswietl() {
         System.out.println(this.toString());
     }
-
-//    •	Klasa implementująca interfejs FlightReservationSystem.
-//            •	Zaimplementuj wszystkie metody interfejsu.
-//            •	Wykorzystaj kolekcję do przechowywania dostępnych lotów, a także informacji o rezerwacjach.
-
 
 }
