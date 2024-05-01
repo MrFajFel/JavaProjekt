@@ -44,10 +44,6 @@ public class Lot extends Systemrezerwacjilotow{
         this.liczbaMiejsc = liczbaMiejsc;
     }
 
-    public Lot() {
-
-    }
-
     @Override
     public String toString() {
         return String.format("Miejsce docelowe %s, Miejsce Wylotu %s, DataWylotu %s, CzasTrwania %f, LiczbaMiejsc %d,",miejsceDocelowe,miejsceWylotu,dataWylotu,czasTrwaniaLotu,liczbaMiejsc);
