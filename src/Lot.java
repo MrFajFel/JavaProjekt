@@ -28,9 +28,6 @@ public class Lot extends Systemrezerwacjilotow{
         return liczbaMiejsc;
     }
 
-    public void setCzasTrwaniaLotu(double czasTrwaniaLotu) {
-        this.czasTrwaniaLotu = czasTrwaniaLotu;
-    }
 
     public void setLiczbaMiejsc(int liczbaMiejsc) {
         this.liczbaMiejsc = liczbaMiejsc;
